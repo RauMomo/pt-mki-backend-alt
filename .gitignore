@@ -125,5 +125,5 @@ exports
 build
 .strapi-updater.json
 .strapi-cloud.json
-package.json
+package-lock.json
 node_modules
