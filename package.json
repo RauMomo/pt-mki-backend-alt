@@ -12,9 +12,9 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.1.0",
-    "@strapi/plugin-users-permissions": "5.1.0",
-    "@strapi/strapi": "5.1.0",
+    "@strapi/plugin-cloud": "5.0.2",
+    "@strapi/plugin-users-permissions": "5.0.2",
+    "@strapi/strapi": "5.0.2",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "node": "22.10.0",
@@ -31,7 +31,7 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": "22.10.0",
+    "node": "^18.17.0",
     "npm": ">=6.0.0"
   },
   "strapi": {
