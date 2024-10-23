@@ -17,7 +17,7 @@
     "@strapi/strapi": "5.1.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
-    "node": "^18.12.0",
+    "node": "22.10.0",
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -31,7 +31,7 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": "18.17.0",
+    "node": "22.10.0",
     "npm": ">=6.0.0"
   },
   "strapi": {
