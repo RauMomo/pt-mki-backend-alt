@@ -1,8 +1,4 @@
-const sslRootCas = require("ssl-root-cas/latest").create();
-
 module.exports = ({ env }) => {
-  require('https').globalAgent.options.ca = sslRootCas;
-
   return {
     host: env("HOST", "0.0.0.0"),
     port: env.int("PORT", 1338),
