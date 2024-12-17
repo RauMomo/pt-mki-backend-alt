@@ -8,14 +8,14 @@
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
-    "start": "strapi start",
+    "start": "node dist/server.js",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.0.2",
-    "@strapi/plugin-users-permissions": "5.0.2",
+    "@strapi/plugin-cloud": "5.5.1",
+    "@strapi/plugin-users-permissions": "5.5.1",
     "@strapi/provider-upload-cloudinary": "^5.5.1",
-    "@strapi/strapi": "5.0.2",
+    "@strapi/strapi": "5.5.1",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "node": "22.10.0",
